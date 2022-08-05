@@ -28,7 +28,7 @@ jobs:
       run: npm install
       
     - name: Run the tests
-      run: npm test
+      run: npm test frontend/src/App.test.js
       
     - name: Build
       run: npm run build
